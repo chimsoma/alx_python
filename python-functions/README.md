@@ -1,0 +1,1 @@
+using python functions for arithmetic purpose
