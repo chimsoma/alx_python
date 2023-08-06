@@ -1,9 +1,10 @@
-"""
+
+class Square:
+ """
 Updating the size value to an integer and also raising a type and value error 
 to validate that size value is an integer before assigning size to the private instance attribute.
 """
-class Square:
-    def __init__(self, size = 0):
+def __init__(self, size = 0):
         if type(size) is not int:
             raise TypeError("size must be an integer")
         elif size < 0:
