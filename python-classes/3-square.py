@@ -19,9 +19,7 @@ def __init__(self, size = 0):
 
 def area(self):
         return self.__size * self.__size
-
-def __init__(self, size = 0):
-    self.__size = size
+    
 
 @property
 def size(self):
